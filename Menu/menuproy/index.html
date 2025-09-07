@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="menu">
+      <div class="title">
+          <h2>Menu</h2>
+          <div class="underline"></div>
+      </div>
+      <div class="btn-container">
+        <button class="filter-btn" type="button" data-id="Todo">Todo</button>
+        <button class="filter-btn" type="button" data-id="Desayuno">Desayunos</button>
+        <button class="filter-btn" type="button" data-id="Almuerzo">Almuerzos</button>
+        <button class="filter-btn" type="button" data-id="Bebidas">Bebidas</button>
+      </div>
+
+      <div class="section-center">
+        <article class="menu-item">
+          <img src="../imagenes/desayuno1.webp" class="photo" 
+          alt="Item menu desayuno">
+          <div class="item-info">
+            <header>
+              <h4>Tigrillo con huevo</h4>
+              <h4 class="price">$4</h4>
+            </header>
+            <p class="item-text">
+              Trigrillo de verde de queso o mixto,
+              acompañado de huevo frito. Con café y jugo de naranja.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
